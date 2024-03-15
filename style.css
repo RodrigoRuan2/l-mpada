@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+span {
+    padding: 5px;
+    border: 1px solid #000;
+}
+span.on {
+    background-color: rgb(238, 255, 80);
+}
+span.off {
+    background-color: rgb(48, 49, 105);
+    color: #fff; 
+}
+
+img {
+    max-width: 100%;
+    width: 300px;
+    cursor: pointer;
+}
